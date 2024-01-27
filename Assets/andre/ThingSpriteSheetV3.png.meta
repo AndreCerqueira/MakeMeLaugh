@@ -1,0 +1,766 @@
+fileFormatVersion: 2
+guid: 1651ac450b6974160a163d7cafc7ac4c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2851
+        width: 916
+        height: 1178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045bd3ed57df6418ca8017d1f75c60be
+      internalID: -1516596474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_1
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 3553
+        width: 288
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbe54d96792b4276b779ad2c719e85e
+      internalID: -1387965829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_2
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 2729
+        width: 1383
+        height: 1367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc4badaf836d4601bbc4953e2e903e0
+      internalID: -1495534671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_3
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 2835
+        width: 1214
+        height: 1194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949f3fcb29d2a4f2390241e01fe46853
+      internalID: -1058045767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_4
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3187
+        width: 276
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ea5bc07fa21429b9c7a2bda3234cce
+      internalID: 726396132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_5
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 2865
+        width: 277
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8199327c5c754d8a93f7125970b0bde
+      internalID: 1075267632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2107
+        width: 332
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a8a49b0eed14ab4b399cbad02265e8
+      internalID: -1314261366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_7
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 2285
+        width: 262
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea29e76e32964e9ca3c72ae73ea20a3
+      internalID: 2029313640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_8
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2351
+        width: 190
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf9d5504d47d4c4f8033000a9965b44
+      internalID: -994642996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_9
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2375
+        width: 166
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590ef04d39c9b4569bca9bcee2dc624a
+      internalID: -973346967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_10
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 2299
+        width: 154
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6be494c735a4ee0ba2c117400339a9
+      internalID: 1653685578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_11
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 1595
+        width: 1214
+        height: 1194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd140e835fff4f589248d13c4a495e4
+      internalID: 1894421976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_12
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 2315
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdfef08764304ef7a019bcf8649ba83
+      internalID: 1409106957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 2125
+        width: 138
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77ad620e88714fab9aaca6709a59034
+      internalID: -379713241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_14
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2023
+        width: 252
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6e9e9f3c82b4ce9917a246aa502ebd
+      internalID: -226817153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_15
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1923
+        width: 118
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3b2b62d810c4fa6b35051118eedf6c
+      internalID: 1876337358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1917
+        width: 101
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218da0daa8aa240248747208e1edce07
+      internalID: -1095688438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_17
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1905
+        width: 132
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64901db7b42a48a9b3c98175c9dfe9f
+      internalID: -478736115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_18
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1963
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347967ed587f845fa90c14298f182e34
+      internalID: -1850757864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_19
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1957
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17b87ca7f44a428faaa18707571b2f7
+      internalID: -2103221358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_20
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1767
+        width: 232
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9912fba55598a4a6ca199190bafd933c
+      internalID: 673192423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_21
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1917
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc8ee2442b184f96a799332ef8ae104
+      internalID: -1460886642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_22
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1747
+        width: 208
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2572dc9ea130a48ffb0ece7ed45212aa
+      internalID: -1691016882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_23
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1767
+        width: 138
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd34a57eb68f4f24b56889e44a7e50e
+      internalID: -1967716675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_24
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1731
+        width: 128
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b83d37473ab41418224557c1967ad4
+      internalID: -1662429640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1711
+        width: 138
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbca8eeba7484d15b57a4ee64d612e5
+      internalID: -371005535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 177
+        width: 1156
+        height: 1410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbd214ccb8fb4995b04801f74c58406
+      internalID: -1887653355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThingSpriteSheetV3_27
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 0
+        width: 2055
+        height: 1292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d6cd427beb94d5e813a2bf99ee90b0
+      internalID: -213150351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ThingSpriteSheetV3_0: -1516596474
+      ThingSpriteSheetV3_1: -1387965829
+      ThingSpriteSheetV3_10: 1653685578
+      ThingSpriteSheetV3_11: 1894421976
+      ThingSpriteSheetV3_12: 1409106957
+      ThingSpriteSheetV3_13: -379713241
+      ThingSpriteSheetV3_14: -226817153
+      ThingSpriteSheetV3_15: 1876337358
+      ThingSpriteSheetV3_16: -1095688438
+      ThingSpriteSheetV3_17: -478736115
+      ThingSpriteSheetV3_18: -1850757864
+      ThingSpriteSheetV3_19: -2103221358
+      ThingSpriteSheetV3_2: -1495534671
+      ThingSpriteSheetV3_20: 673192423
+      ThingSpriteSheetV3_21: -1460886642
+      ThingSpriteSheetV3_22: -1691016882
+      ThingSpriteSheetV3_23: -1967716675
+      ThingSpriteSheetV3_24: -1662429640
+      ThingSpriteSheetV3_25: -371005535
+      ThingSpriteSheetV3_26: -1887653355
+      ThingSpriteSheetV3_27: -213150351
+      ThingSpriteSheetV3_28: -2069347814
+      ThingSpriteSheetV3_29: 1743526639
+      ThingSpriteSheetV3_3: -1058045767
+      ThingSpriteSheetV3_30: -159239571
+      ThingSpriteSheetV3_31: -2059309310
+      ThingSpriteSheetV3_32: 1500789356
+      ThingSpriteSheetV3_33: 2064442539
+      ThingSpriteSheetV3_34: 560913120
+      ThingSpriteSheetV3_35: 1892844546
+      ThingSpriteSheetV3_36: -1433422712
+      ThingSpriteSheetV3_37: 202681476
+      ThingSpriteSheetV3_4: 726396132
+      ThingSpriteSheetV3_5: 1075267632
+      ThingSpriteSheetV3_6: -1314261366
+      ThingSpriteSheetV3_7: 2029313640
+      ThingSpriteSheetV3_8: -994642996
+      ThingSpriteSheetV3_9: -973346967
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
