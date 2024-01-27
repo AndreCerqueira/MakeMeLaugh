@@ -1,9 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Reflection;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class Npc : MonoBehaviour
 {
@@ -25,6 +21,8 @@ public class Npc : MonoBehaviour
     {
         if (isPlayerInRange && (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Alpha4)))
         {
+            ShowDialog();
+
             int keyPressed = int.Parse(Input.inputString);
 
             Inventory playerInventory = player.GetComponent<Inventory>();
@@ -82,6 +80,12 @@ public class Npc : MonoBehaviour
             
         }
 
+    }
+
+
+    public void ShowDialog()
+    {
+        // 
     }
 
 
