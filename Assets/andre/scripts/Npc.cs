@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Npc : MonoBehaviour
 {
@@ -10,10 +11,12 @@ public class Npc : MonoBehaviour
     // private bool isItemGoodForNpc = false;
     private bool isPlayerInRange = false;
     private GameObject player;
+    private SpeechBubble speechBubble;
 
     // Start is called before the first frame update
     void Start()
     {
+        speechBubble = GetComponentInChildren<SpeechBubble>();
     }
 
     // Update is called once per frame
@@ -21,8 +24,6 @@ public class Npc : MonoBehaviour
     {
         if (isPlayerInRange && (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Alpha4)))
         {
-            ShowDialog();
-
             int keyPressed = int.Parse(Input.inputString);
 
             Inventory playerInventory = player.GetComponent<Inventory>();
@@ -66,10 +67,14 @@ public class Npc : MonoBehaviour
                         gameManager.ShowWinPopUp();
                     }
 
+                    ShowDialog(true);
+
                 }
                 else
                 {
                     Debug.Log("Not good");
+
+                    ShowDialog(false);
                 }
 
             }
@@ -83,9 +88,13 @@ public class Npc : MonoBehaviour
     }
 
 
-    public void ShowDialog()
+    public void ShowDialog(bool isPositive)
     {
-        // 
+        // get SpeechBubble component in children
+        Debug.Log("speechBubble: " + speechBubble);
+
+        speechBubble.Show(isPositive);
+        // speechBubble.GetComponent<CanvasGroup>().alpha = 1;
     }
 
 
