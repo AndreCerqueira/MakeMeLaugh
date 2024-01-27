@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class Npc : MonoBehaviour
 {
@@ -32,28 +34,46 @@ public class Npc : MonoBehaviour
             try
             {
                 // Check if the inventory is not null and has enough items
-                if (playerInventory != null && playerInventory.items.Count >= keyPressed)
+
+                Item item = playerInventory.items[keyPressed - 1];
+                bool isItemGoodForNpc = item.npcIdTarget == id;
+
+                if (isItemGoodForNpc)
                 {
-                    int index = 0;
-                    foreach (var item in playerInventory.items)
+                    Debug.Log("Player gave up item");
+                    GaveUpItem(keyPressed, playerInventory);
+                    // Additional logic for accepting the item
+
+                    // Get all quest components in the scene
+                    Quest[] quests = FindObjectsOfType<Quest>();
+                    foreach (Quest quest in quests)
                     {
-                        index++;
-                        if (index != keyPressed) return;
-
-                        bool isItemGoodForNpc = item.npcIdTarget == id;
-
-                        if (isItemGoodForNpc)
-                        {
-                            Debug.Log("Player gave up item");
-                            GaveUpItem(index, playerInventory);
-                            // Additional logic for accepting the item
-                        }
-                        else
-                        {
-                            Debug.Log("Not good");
-                        }
+                        if (quest.npcIdTarget == id)
+                            quest.MarkAsCheck();
                     }
+
+                    int questsCount = quests.Length;
+                    int questsCompleted = 0;
+                    foreach (Quest quest in quests)
+                    {
+                        if (quest.IsQuestCompleted())
+                            questsCompleted++;
+                    }
+
+                    // Check if all quests are completed
+                    if (questsCompleted == questsCount)
+                    {
+                        Debug.Log("All quests completed");
+                        GameManager gameManager = FindObjectOfType<GameManager>();
+                        gameManager.ShowWinPopUp();
+                    }
+
                 }
+                else
+                {
+                    Debug.Log("Not good");
+                }
+
             }
             catch (Exception)
             {
@@ -69,7 +89,7 @@ public class Npc : MonoBehaviour
     {
         // Destruir o item na lista e visualmente
         inventory.slots[index - 1].transform.Find("Item").gameObject.SetActive(false);
-        inventory.items.RemoveAt(index - 1);
+        inventory.items[index - 1] = null;
 
         // check da missao do npc
     }

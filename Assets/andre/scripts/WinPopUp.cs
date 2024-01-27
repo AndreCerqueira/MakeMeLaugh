@@ -19,12 +19,12 @@ public class WinPopUp : MonoBehaviour
     public void PlayAgain()
     {
         // Load the scene again
-        // UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("andre");
     }
 
     public void Return()
     {
         // Load the scene again
-        // UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
     }
 }
