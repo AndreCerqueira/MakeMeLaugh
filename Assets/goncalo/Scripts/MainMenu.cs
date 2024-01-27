@@ -1,3 +1,5 @@
+using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -33,16 +35,17 @@ public class MainMenu : MonoBehaviour
     // Coroutine to gradually change the alpha value
     private System.Collections.IEnumerator ChangeAlphaGradually(string sceneName)
     {
-        while (Time.time - startTime < totalTimeToDarken)
+        while (ScnChanger.GetComponent<Image>().color.a < targetAlpha)
         {
             ChangeAlpha();
-            Debug.Log("Changed alpha: " + ScnChanger.GetComponent<Image>().color.a);
             yield return null;
         }
 
         Debug.Log("Alpha reached the target, loading scene");
 
         audioSource.Play();
+        textObject.gameObject.SetActive(true);
+        StartCoroutine(WriteText());
 
         yield return new WaitForSeconds(audioClip.length + 1f); // 1 second buffer
 
@@ -51,12 +54,27 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+
+
+    public TextMeshProUGUI textObject;
+    // corroutine writing text on screen
+    IEnumerator WriteText()
+    {
+        string text = "Ladies and gentleman's. Boys and Girls. It has arrived. Come!";
+        
+        foreach (char c in text.ToCharArray()) 
+        {
+            textObject.text += c;
+            yield return new WaitForSeconds(0.075f);
+        }
+    }
+
+
     void ChangeAlpha()
     {
         // Calculate the normalized time elapsed
         float normalizedTime = (Time.time - startTime) / totalTimeToDarken;
 
-        // Use Mathf.Lerp to smoothly interpolate between the current alpha and the target alpha
         float newAlpha = Mathf.Lerp(0f, targetAlpha, normalizedTime);
 
         // Set the new alpha value
