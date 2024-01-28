@@ -371,10 +371,10 @@ RectTransform:
   - {fileID: 2125224674}
   m_Father: {fileID: 407514685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 1246, y: 1294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &73503752
 GameObject:
@@ -1186,9 +1186,9 @@ RectTransform:
   - {fileID: 1651581877}
   m_Father: {fileID: 751410962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 969, y: 534}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9, y: -6}
   m_SizeDelta: {x: 1246, y: 1294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &407514687
@@ -2401,10 +2401,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 407514685}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -302, y: -250.00002}
-  m_SizeDelta: {x: 90.6622, y: 132.7294}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 321, y: 397}
+  m_SizeDelta: {x: 90.66223, y: 132.72937}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &852433217
 MonoBehaviour:
@@ -2918,10 +2918,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 407514685}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -457, y: -217.05884}
-  m_SizeDelta: {x: 103.6182, y: 131.5394}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 166, y: 429.94116}
+  m_SizeDelta: {x: 103.618225, y: 131.53943}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1127630422
 MonoBehaviour:
@@ -3545,9 +3545,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 407514685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -607, y: 361}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 16, y: -286}
   m_SizeDelta: {x: 1072.7012, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651581878
@@ -3904,10 +3904,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 407514685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 338.29437, y: -244.97093}
-  m_SizeDelta: {x: 71.8044, y: 134.9053}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -284.70563, y: 402.02905}
+  m_SizeDelta: {x: 71.80438, y: 134.90527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828265257
 MonoBehaviour:
@@ -4113,10 +4113,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 407514685}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 453, y: -205.71953}
-  m_SizeDelta: {x: 71.8044, y: 134.9053}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -170, y: 441.28046}
+  m_SizeDelta: {x: 71.80438, y: 134.90527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865249198
 MonoBehaviour:
@@ -5374,7 +5374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Farturas do riso
+  m_text: Fartura de risos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
   m_sharedMaterial: {fileID: -403277894513911722, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
@@ -5401,7 +5401,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.3
+  m_fontSize: 32.45
   m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 1
