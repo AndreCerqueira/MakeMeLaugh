@@ -59,8 +59,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2049656279
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &7077194525692519466
 MonoBehaviour:
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   prefab: {fileID: 0}
-  position: {x: -7.64, y: -0.58, z: 0}
+  position: {x: -4.78, y: 0, z: 0}
 --- !u!61 &-1408163833150013483
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -357,8 +357,8 @@ Transform:
   m_GameObject: {fileID: 3468971536024325576}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.43, y: -0.72, z: 0}
-  m_LocalScale: {x: 0.8821, y: 2.4861774, z: 1}
+  m_LocalPosition: {x: -0.32, y: -0.42, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5458889850909601084}
@@ -401,11 +401,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.6603774, g: 0.2024742, b: 0.2024742, a: 1}
+  m_SortingLayerID: 2049656279
+  m_SortingLayer: 1
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: e5152076156fa834baf5b4be95dfdf04, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

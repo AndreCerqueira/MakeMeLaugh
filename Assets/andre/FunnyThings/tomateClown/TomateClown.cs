@@ -26,7 +26,7 @@ public class TomateClown : MonoBehaviour
         // Instantiate tomate in canvas
 
         GameObject tomato = Instantiate(tomatoPrefab);
-        tomato.transform.parent = canvas.transform;
+        tomato.transform.parent = GameObject.Find("tomates").transform;
         tomato.transform.localPosition = new Vector3(90, 49, 0);
 
         // change position to 90 49

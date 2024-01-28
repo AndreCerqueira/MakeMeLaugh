@@ -99,6 +99,11 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Application has quit");
     }
 
+    public void GoToCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     public void AbrirSom()
     {
         menuSom.SetActive(true);

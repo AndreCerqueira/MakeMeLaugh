@@ -80,7 +80,7 @@ public class Npc : MonoBehaviour
             }
             catch (Exception)
             {
-
+                ShowDialog(false);
             }
             
         }

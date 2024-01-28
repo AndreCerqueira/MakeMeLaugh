@@ -48,7 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcIdTarget: 4
   PossibleSpawnPosition:
-  - {x: -8.21, y: 1.04, z: 0}
+  - {x: 3.1, y: -5.24, z: 0}
+  - {x: -6.02, y: -3.35, z: 0}
+  - {x: 3.37, y: 1.52, z: 0}
 --- !u!61 &5207486539255734079
 BoxCollider2D:
   m_ObjectHideFlags: 0

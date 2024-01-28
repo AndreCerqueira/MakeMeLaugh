@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/goncalo/Main Menu.unity
     guid: 4ba884438c708e547a16354a80f63c4a
+  - enabled: 1
+    path: Assets/andre/Credits.unity
+    guid: a380c1e4fd82f8341ac2d9a4e354da4d
   m_configObjects: {}

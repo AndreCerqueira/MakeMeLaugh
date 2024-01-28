@@ -140,7 +140,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Soneca
+  m_text: Pomi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
   m_sharedMaterial: {fileID: -403277894513911722, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: -4619011178186510845}
   - component: {fileID: 6459923918319846223}
   m_Layer: 0
-  m_Name: Soneca
+  m_Name: Pomi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -237,7 +237,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5319896644006469508}
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   prefab: {fileID: 0}
-  position: {x: -0.09, y: -0.1, z: 0}
+  position: {x: 0.7, y: -1.12, z: 0}
 --- !u!61 &6459923918319846223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -330,8 +330,8 @@ Transform:
   m_GameObject: {fileID: 3468971536024325576}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.43, y: -0.72, z: 0}
-  m_LocalScale: {x: 0.8821, y: 2.4861774, z: 1}
+  m_LocalPosition: {x: -0.43, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5458889850909601084}
@@ -374,11 +374,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.2024742, g: 0.34224597, b: 0.6603774, a: 1}
+  m_SortingLayerID: 2049656279
+  m_SortingLayer: 1
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: ed45340a1ea134f4abf11bab00df7a3f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -777,8 +777,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2049656279
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &105974745087285062
 MonoBehaviour:

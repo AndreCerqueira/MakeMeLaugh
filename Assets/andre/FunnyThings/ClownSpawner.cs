@@ -49,23 +49,32 @@ public class ClownSpawner : MonoBehaviour
                 Instantiate(clowns[1], transform.position, Quaternion.identity);
             }
 
-            
             // set scale to 1
             clown.transform.localScale = new Vector3(1, 1, 1);
 
             // get Clowns container with Find
             GameObject clownsContainer = GameObject.Find("Clowns");
             clown.transform.SetParent(clownsContainer.transform);
-            clown.transform.localScale = new Vector3(1, 1, 1);
+            clown.transform.localScale = new Vector3(2, 2, 2);
 
-            // add 100 in x offset if banana or tomate clown
-            if (clown.name.ToLower().Contains("banana")) { 
+            if (clown.name.ToLower().Contains("rolling"))
+            {
+                clown.transform.localScale = new Vector3(3, 3, 3);
+            }
+
+                // add 100 in x offset if banana or tomate clown
+            if (clown.name.ToLower().Contains("banana"))
+            {
+                clown.transform.localScale = new Vector3(1, 1, 1);
                 clown.transform.position = new Vector3(clown.transform.position.x + 100, clown.transform.position.y, clown.transform.position.z);
                 bananaInScene = true;
             }
 
             if (clown.name.ToLower().Contains("tomate"))
+            {
+                clown.transform.localScale = new Vector3(3, 3, 3);
                 clown.transform.position = new Vector3(clown.transform.position.x + Random.Range(200, 500), clown.transform.position.y, clown.transform.position.z);
+            }
 
             // play sound
             SoundManager.instance.PlayRandomSoundEffect();
