@@ -1084,8 +1084,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -813.93, y: -28.837}
-  m_SizeDelta: {x: 413.46, y: 122.3303}
+  m_AnchoredPosition: {x: -790.8348, y: -28.837}
+  m_SizeDelta: {x: 367.2695, y: 122.3303}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &284040616
 MonoBehaviour:
@@ -1107,7 +1107,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press [E] to pick items!
+  m_text: 'Press <color=#fff>[E]</color> to pick items!
+
+    Make the clowns laught.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
   m_sharedMaterial: {fileID: -403277894513911722, guid: ca247a3092b7b404dbaa6f4ab43e450c, type: 2}
@@ -1134,14 +1136,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.6
-  m_fontSizeBase: 34.6
+  m_fontSize: 30.8
+  m_fontSizeBase: 30.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 43.6
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4570,6 +4572,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2318396421304202167, guid: cca622e19d19740e2876e517f42b7d5f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1111982977, guid: 94f93086ef76244d3bfa00423cb6a993, type: 3}
     - target: {fileID: 2318396421304202167, guid: cca622e19d19740e2876e517f42b7d5f, type: 3}
       propertyPath: m_Color.b
       value: 1
